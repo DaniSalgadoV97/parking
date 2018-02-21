@@ -15,6 +15,12 @@ public class ParkingXD {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        Fichavehiculo miFicha;
+        miFicha=new Fichavehiculo();
+        miFicha.setVisible(true);
+        miFicha.setLocationRelativeTo(null);
+        miFicha.setSize(300, 300);
+        
         // TODO code application logic here
     }
     
